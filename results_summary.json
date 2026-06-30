@@ -1,0 +1,30 @@
+{
+  "best_model_name": "Decision Tree Classifier",
+  "summary_text": "The best model was Decision Tree Classifier because it achieved the strongest overall balance of F1 score (0.513) and ROC AUC (0.510). It outperformed the next best model by 0.052 F1 points, which suggests it captured the churn patterns more effectively. This indicates that interpretable rule-based splits matched the structure of the churn dataset well.",
+  "comparison_table": [
+    {
+      "Model": "Decision Tree Classifier",
+      "Accuracy": 0.5093537414965986,
+      "Precision": 0.5024793388429752,
+      "Recall": 0.5241379310344828,
+      "F1 Score": 0.5130801687763713,
+      "ROC AUC": 0.5095521869937515
+    },
+    {
+      "Model": "Random Forest Classifier",
+      "Accuracy": 0.48214285714285715,
+      "Precision": 0.47368421052631576,
+      "Recall": 0.45,
+      "F1 Score": 0.46153846153846156,
+      "ROC AUC": 0.49074866928951627
+    },
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.5008503401360545,
+      "Precision": 0.49256900212314225,
+      "Recall": 0.4,
+      "F1 Score": 0.44148430066603234,
+      "ROC AUC": 0.4747975005785698
+    }
+  ]
+}
